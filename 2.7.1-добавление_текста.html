@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body> <a href="#">ссылка</a>
+    <a href="#"></a> <a href="#">ссылка</a>
+    <a href="#"></a>
+    <!-- Задание.
+    1. Получите все ссылки.
+    2. Проверьте, есть ли в ссылке текст "ссылка", и если нет, то добавьте. -->
+    <script>
+        'use strict'
+        let parent = document.querySelectorAll('a');
+        for (var i = 0; i < parent.length; i++) {
+            let text = parent[i].innerHTML;
+            if (text != 'ссылка') {
+                parent[i].innerHTML = 'ссылка';
+                //console.log(parent[i]);
+            }
+        }
+    </script>
+</body>
+
+</html>

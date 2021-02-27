@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="one two three"></div>
+    <!-- 
+    Задание.
+    1. Сохраните в переменную тег div.
+    2. Создайте переменную classes, и в нее сохраните значение свойства classList.
+    3. C помощью forEach переберите classes и выведите каждый класс в консоль.
+     -->
+    <script>
+        'use strict'
+        let d = document.querySelector('div');
+        let classes = d.classList;
+        classes.forEach(function (item, i, classes) {
+            console.log(i + ": " + item);
+        });
+/*        for (var i = 0; i < classes.length; i++) {
+            console.log(classes[i]);
+        }*/
+    </script>
+</body>
+
+</html>
