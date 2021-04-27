@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">E-shop</div>
+        <div class="cart">
+            <form action="#" class="search-form">
+                <input type="text" class="search-field">
+                <button class="btn-search" type="submit"> <i class="fas fa-search"></i> </button>
+            </form>
+            <button class="btn-cart" type="button">Корзина</button>
+            <div class="cart-block invisible"></div>
+        </div>
+    </header>
+    <main>
+        <div class="products"></div>
+        <div class="reg">
+            <form action="#" class="reg-form">
+                <input type="text" class="FIO" required placeholder="Ваше ФИО">
+                <input type="text" class="tel" required placeholder="Ваш телефон" maxlength="15">
+                <input type="text" class="mail" required placeholder="Ваша почта">
+                <p>Комментарий<br>
+                    <textarea name="comment" cols="40" rows="3"></textarea>
+                </p>
+                <p><input type="submit" value="Отправить">
+                    <input type="reset" value="Очистить">
+                </p>
+            </form>
+        </div>
+        <div class="text">
+            <h3>Befor</h3>
+            <div class="left">
+                One: 'Hi Mary.'
+                <br>Two: 'Oh, hi.'
+                <br>One: 'How are you doing?'
+                <br>Two: 'I'm doing alright. How about you?'
+                <br>One: 'Not too bad. The weather is great isn't it?'
+                <br>Two: 'Yes. It's absolutely beautiful today.'
+                <br>One: 'I wish it was like this more frequently.'
+                <br>Two: 'Me too.'
+                <br>One: 'So where are you going now?'
+                <br>Two: 'I'm going to meet a friend of mine at the department store.'
+                <br>One: 'Going to do a little shopping?'
+                <br>Two: 'Yeah, I have to buy some presents for my parents.'
+                <br>One: 'What's the occasion?'
+                <br>Two: 'It's their anniversary.'
+                <br>One: 'That's great. Well, you better get going. You don't want to be late.'
+                <br>Two: 'I'll see you next time.'
+                <br>One: 'Sure. Bye.'
+            </div>
+            <h3>After</h3>
+            <div class="right"></div>
+        </div>
+    </main>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
+<!--<div class="cart-item" data-id="${this.id_product}">-->
+<!--<div class="product-bio">-->
+<!--<img src="${this.img}" alt="Some image">-->
+<!--<div class="product-desc">-->
+<!--<p class="product-title">${this.product_name}</p>-->
+<!--<p class="product-quantity">Quantity: ${this.quantity}</p>-->
+<!--<p class="product-single-price">$${this.price} each</p>-->
+<!--</div>-->
+<!--</div>-->
+<!--<div class="right-block">-->
+<!--<p class="product-price">${this.quantity*this.price}</p>-->
+<!--<button class="del-btn" data-id="${this.id_product}">&times;</button>-->
+<!--</div>-->
+<!--</div>-->

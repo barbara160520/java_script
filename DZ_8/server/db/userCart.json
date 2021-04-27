@@ -1,0 +1,27 @@
+{
+    "amount": 0,
+    "countGoods": 0,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 4,
+            "product_name": "Платье",
+            "price": 50,
+            "imgPath": "img/product_4.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 14,
+            "product_name": "Футболка",
+            "price": 40,
+            "imgPath": "img/product_14.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 1,
+            "product_name": "Футболка",
+            "price": 45,
+            "imgPath": "img/product_1.jpg"
+        }
+    ]
+}

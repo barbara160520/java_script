@@ -1,0 +1,20 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 1,
+            "product_name": "Футболка",
+            "price": 45,
+            "imgPath": "img/product_1.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 2,
+            "product_name": "Кофта",
+            "price": 30,
+            "imgPath": "img/product_2.jpg"
+        }
+    ]
+}
