@@ -1,0 +1,72 @@
+[
+  {
+    "id_product": 1,
+    "product_name": "Футболка",
+    "price": 45
+  },
+  {
+    "id_product": 2,
+    "product_name": "Кофта",
+    "price": 30
+  },
+  {
+    "id_product": 3,
+    "product_name": "Куртка",
+    "price": 52
+  },
+  {
+    "id_product": 4,
+    "product_name": "Платье",
+    "price": 50
+  },  
+  {
+    "id_product": 5,
+    "product_name": "Комбенизон",
+    "price": 100
+  },
+  {
+    "id_product": 6,
+    "product_name": "Костюм",
+    "price": 250
+  },
+  {
+    "id_product": 7,
+    "product_name": "Штаны",
+    "price": 35
+  },
+  {
+    "id_product": 8,
+    "product_name": "Толстовка",
+    "price": 52
+  },
+  {
+    "id_product": 9,
+    "product_name": "Куртка",
+    "price": 105
+  },
+  {
+    "id_product": 10,
+    "product_name": "Пальто",
+    "price": 152
+  },
+  {
+    "id_product": 11,
+    "product_name": "Футболка",
+    "price": 30
+  },
+  {
+    "id_product": 12,
+    "product_name": "Куртка",
+    "price": 110
+  },  
+  {
+    "id_product": 13,
+    "product_name": "Кофта",
+    "price": 52
+  },
+  {
+    "id_product": 14,
+    "product_name": "Футболка",
+    "price": 40
+  }
+]

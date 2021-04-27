@@ -1,0 +1,19 @@
+{
+  "name": "DZ8",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.21",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "build": "webpack"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
